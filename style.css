@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #585656;
+    background: #232323;
+}
+
+h1.title{
+    display: block;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #6dcc9e;
+}
+
+.emoji-container{
+    width: 100%;
+    text-align: center;
+    font-size: 125px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.emoji-container span{
+    display: inline-block;
+    transition: all 0.2s linear;
+}
+
+.emoji-container span:hover{
+    transform: scale(1.1);
+}
+
+.form-container{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0 0;
+}
+
+.button-generator{
+    transition: all 0.2s linear;
+    border: solid 3px #6dcc9e;
+    background-color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #6dcc9e;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-generator:hover{
+    color: #232323;
+    background-color: #6dcc9e;
+    border-color: #6dcc9e;
+}
+
+.sign-footer{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 25px;
+}
+
+.sign-footer a{
+    color: #6dcc9e;
+    text-decoration: none;
+}

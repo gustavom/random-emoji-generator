@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nice Text Emoji Random Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Generate a Random Emoji</h1>
-    <div data-js="emoji-receiver"></div>
-    <form data-js="formGenerator">
-        <button data-js="actionButton">Generate</button>
-    </form>
+    <h1 class="title">Generate a Random Emoji</h1>
+    <div class="emoji-container"><span data-js="emoji-receiver">Show my emoji!</span></div>
+    <div class="form-container">
+        <form data-js="formGenerator">
+            <button data-js="actionButton" class="button-generator">Generate</button>
+        </form>
+    </div>
+    <span class="sign-footer">Just for Fun - <a href="https://gustavom.github.io" target="_blank">Gustavo Martusewicz</a></span>
     <script src="app.js"></script>
 </body>
 </html>

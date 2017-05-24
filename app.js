@@ -32,13 +32,16 @@
                 var data = JSON.parse(this.responseText);
                 
                 var emojiCount = Object.keys(data).length;
+                console.log(emojiCount);
+                console.log(app.getRandomEmoji(emojiCount));
                 
                 $emojiReceiver.textContent = data[app.getRandomEmoji(emojiCount)];
 
             },
 
             getRandomEmoji: function getRandomEmoji(max){
-                return Math.floor(Math.random() * (max - 1)) + 1;
+                var maxNumber = max + 1;
+                return Math.floor(Math.random() * (maxNumber - 1)) + 1;
             },
 
             isReady: function isReady(){
